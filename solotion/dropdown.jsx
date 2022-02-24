@@ -14,7 +14,7 @@ Prompt:
      `app.sync('PATCH', 'users/'+app.USER.id, { dropdown_1_state: {true,false} })` where would this be included? Should
      the state be read again from the server to show the dropdown open/closed on page load?
         
-     -I will sync it to the ExampleNav and pass it as props component no need to 
+     -I will sync it to the ExampleNav component and pass it as props no need to 
             read again from the server to show the dropdown open/closed on page load.
 
   5. If we wanted to pass children (like this example) OR a Promise that resolves to an array of items
